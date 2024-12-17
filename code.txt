@@ -44,7 +44,7 @@ void loop(void) {
             digitalWrite(PINO_LED_VERMELHO, HIGH);
             digitalWrite(PINO_LED_AMARELO, HIGH);
             digitalWrite(PINO_LED_VERDE, HIGH);
-            delay(5000); // LEDs acesos por 1 segundo
+            delay(5000); // LEDs acesos por 5 segundos
             digitalWrite(PINO_LED_VERMELHO, LOW);
             digitalWrite(PINO_LED_AMARELO, LOW);
             digitalWrite(PINO_LED_VERDE, LOW);
@@ -65,7 +65,7 @@ case ESTADO_ACENDER_AMARELO: {
             digitalWrite(PINO_LED_VERMELHO, LOW);
             digitalWrite(PINO_LED_AMARELO, HIGH);
             digitalWrite(PINO_LED_VERDE, LOW);
-            delay(5000); // Amarelo aceso por 1 segundo
+            delay(5000); // Amarelo aceso por 5 segundos
             estadoAtual = ESTADO_ACENDER_VERDE;
             break;
         }
